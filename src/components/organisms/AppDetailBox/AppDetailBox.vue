@@ -64,7 +64,7 @@ const dataDummy = [
       <AppTagList :tags="dataDummy" />
       <AppContainer class="flex flex-col absolute bottom-2 left-2">
         <AppButton
-          class="bg-gray-200 xl:text-[12px] px-[20px] py-[10px] rounded-full text-black flex items-center justify-items-center max-w-max"
+          class="bg-gray-200 xl:text-[12px] desktop:text-[16px] px-[20px] py-[10px] rounded-full text-black flex items-center justify-items-center max-w-max"
         >
           Light Mode
         </AppButton>
@@ -72,10 +72,10 @@ const dataDummy = [
           <AppButton
             class="bg-transparent rounded-full p-[10px] py-[28px] border-[2px] border-black"
           >
-            <Icon icon="bi:sun-fill" class="text-white xl:text-[18px] text-[30px]" />
+            <Icon icon="bi:sun-fill" class="text-white xl:text-[18px] desktop:text-[30px]" />
           </AppButton>
           <AppButton class="bg-black rounded-full p-[10px] py-[24px] border-[2px] border-black">
-            <Icon icon="ri:moon-fill" class="text-white xl:text-[18px] text-[30px]" />
+            <Icon icon="ri:moon-fill" class="text-white xl:text-[18px] desktop:text-[30px]" />
           </AppButton>
         </AppContainer>
       </AppContainer>

@@ -11,12 +11,14 @@ import { Icon } from "@iconify/vue"
     class="w-full h-full flex backdrop-blur-md bg-gray-400/40 rounded-[40px] gap-[20px] p-[10px] animate__animated animate__zoomIn animate__delay-3s"
   >
     <AppContainer class="w-[50%]">
-      <AppContainer class="w-full xl:h-[40%] h-[50%]">
-        <h1 class="text-[24px] text-black font-bold xl:text-[18px] xl:py-[2px] py-[15px]">
+      <AppContainer class="w-full xl:h-[40%] desktop:h-[50%]">
+        <h1
+          class="desktop:text-[24px] text-black font-bold xl:text-[18px] xl:py-[2px] desktop:py-[15px]"
+        >
           Complete
         </h1>
       </AppContainer>
-      <AppContainer class="w-full xl:h-[60%] h-[50%] relative">
+      <AppContainer class="w-full xl:h-[60%] desktop:h-[50%] relative">
         <svg
           preserveAspectRatio="none"
           class="w-full h-full absolute"
@@ -29,10 +31,10 @@ import { Icon } from "@iconify/vue"
             fill="white"
           />
         </svg>
-        <AppContainer class="flex h-full w-full xl:p-[12px] p-[25px] absolute">
+        <AppContainer class="flex h-full w-full xl:p-[12px] desktop:p-[25px] absolute">
           <AppTextInfo />
           <AppButton
-            class="bg-gray-400 rounded-full p-[2px] w-max h-max absolute z-10 xl:top-0 xl:right-0 top-1 right-1"
+            class="bg-gray-400 rounded-full p-[2px] w-max h-max absolute z-10 xl:top-0 xl:right-0 desktop:top-1 desktop:right-1"
           >
             <Icon icon="eva:diagonal-arrow-right-up-fill" width="20" class="text-black" />
           </AppButton>
@@ -54,18 +56,20 @@ import { Icon } from "@iconify/vue"
       </svg>
       <!--  -->
       <AppContainer
-        class="absolute pt-[15px] xl:pt-[8px] pl-[25px] xl:pl-[10px] w-full h-full flex flex-col items-center justify-between"
+        class="absolute desktop:pt-[15px] xl:pt-[8px] desktop:pl-[25px] xl:pl-[10px] w-full h-full flex flex-col items-center justify-between"
       >
         <AppContainer class="flex gap-[10px] items-center">
-          <Icon icon="solar:wallet-linear" class="text-black xl:text-[20px] text-[30px]" />
-          <h1 class="text-[22px] xl:text-[14px] text-black font-bold xl:py-[8px] py-[15px]">
+          <Icon icon="solar:wallet-linear" class="text-black xl:text-[20px] desktop:text-[30px]" />
+          <h1
+            class="desktop:text-[22px] xl:text-[14px] text-black font-bold xl:py-[8px] desktop:py-[15px]"
+          >
             Earnings
           </h1>
         </AppContainer>
         <AppContainer class="flex flex-col items-center justify-center w-full">
           <AppPriceInfo />
           <AppButton
-            class="bg-gray-400 rounded-full p-[2px] w-max h-max self-end relative xl:bottom-4 bottom-2 right-2"
+            class="bg-gray-400 rounded-full p-[2px] w-max h-max self-end relative xl:bottom-4 desktop:bottom-2 right-2"
           >
             <Icon icon="eva:diagonal-arrow-right-up-fill" width="30" class="text-black" />
           </AppButton>

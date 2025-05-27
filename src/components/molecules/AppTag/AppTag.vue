@@ -19,7 +19,7 @@ const props = defineProps({
 
 <template>
   <AppContainer
-    :class="`flex items-center justify-start gap-[10px] xl:text-[9px] px-[10px] py-[4px] rounded-full border-2 ${props.class} border-black ${props.isSelect ? 'bg-black' : ' '}`"
+    :class="`flex items-center justify-start gap-[10px] xl:text-[9px] desktop:text-[14px]  px-[10px] py-[4px] rounded-full border-2 ${props.class} border-black ${props.isSelect ? 'bg-black' : ' '}`"
   >
     <AppContainer
       v-if="props.isSelect"

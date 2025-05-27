@@ -26,16 +26,16 @@ const props = defineProps({
       />
     </svg>
     <AppContainer class="w-full h-full p-[25px] xl:p-[20px] flex flex-col justify-between absolute">
-      <h1 class="text-black font-bold xl:text-[20px] text-[24px]">Todo</h1>
+      <h1 class="text-black font-bold xl:text-[20px] desktop:text-[24px]">Todo</h1>
       <AppContainer class="w-full flex items-center justify-center">
         <AppTextInfo />
       </AppContainer>
       <AppButton
-        class="bg-black hover:bg-white rounded-full xl:p-[15px] p-[22px] shadow-xl w-max h-max absolute z-10 top-0 xl:right-2 right-0 animate__animated animate__fadeInTopRight animate__delay-5s"
+        class="bg-black hover:bg-white rounded-full xl:p-[15px] desktop:p-[22px] shadow-xl w-max h-max absolute z-10 top-0 xl:right-2 right-0 animate__animated animate__fadeInTopRight animate__delay-5s"
       >
         <Icon
           icon="eva:diagonal-arrow-right-up-fill"
-          class="text-white hover:text-black xl:text-[30px] text-[40px]"
+          class="text-white hover:text-black xl:text-[30px] desktop:text-[40px]"
         />
       </AppButton>
     </AppContainer>
