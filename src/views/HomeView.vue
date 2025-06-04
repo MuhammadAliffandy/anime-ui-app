@@ -70,5 +70,12 @@ import AppFloatingButton from "@/components/molecules/AppFloatingButton/AppFloat
         </AppContainer>
       </AppContainer>
     </AppContainer>
+
+    <!--  -->
+    <AppContainer
+      class="absolute bg-black top-0 w-full h-full flex sm:flex md:flex lg:flex xl:hidden desktop:hidden items-center justify-center"
+    >
+      <p class="text-yellow-600 p-[20px] border-2 border-yellow-600 w-max">Only Deskstop Mode</p>
+    </AppContainer>
   </main>
 </template>
